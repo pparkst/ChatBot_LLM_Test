@@ -35,19 +35,19 @@ dist/
 
 학습 데이터
 *.csv
-/dataset_Training/
-/dataset_Validation/
+/src/dataset_Training/
+/src/dataset_Validation/
 
 
 
 학습 결과 저장 디렉토리 (kobart_training_setup.py 참조)
 
-/kobart_results/
-/kobart_results_v1/
-/kobart_logs/
-/final_kobart_chatbot_model/
-/final_kobart_chatbot_model_v1/
-/kogpt2_chatbot_model/
+/src/kobart/kobart_results/
+/src/kobart/kobart_results_v1/
+/src/kobart/kobart_logs/
+/src/kobart/final_kobart_chatbot_model/
+/src/kobart/final_kobart_chatbot_model_v1/
+/src/kogpt2/kogpt2_chatbot_model/
 
 Transformers 캐시 및 로컬 데이터셋
 
