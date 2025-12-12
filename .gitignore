@@ -1,0 +1,64 @@
+1. Python 환경 관련
+
+--------------------------
+
+바이트코드 파일
+
+pycache/
+*.py[cod]
+*$py.class
+
+가상 환경 (Virtual Environment)
+
+venv/
+.venv/
+env/
+
+IDE/에디터 파일
+
+.idea/      # IntelliJ / PyCharm
+.vscode/    # VS Code
+*.swp       # Vim
+*.bak
+
+Python 패키징 및 배포 파일
+
+build/
+dist/
+*.egg-info/
+
+--------------------------
+
+2. Hugging Face / 모델 학습 관련
+
+--------------------------
+
+학습 데이터
+*.csv
+/dataset_Training/
+/dataset_Validation/
+
+
+
+학습 결과 저장 디렉토리 (kobart_training_setup.py 참조)
+
+/kobart_results/
+/kobart_results_v1/
+/kobart_logs/
+/final_kobart_chatbot_model/
+/final_kobart_chatbot_model_v1/
+/kogpt2_chatbot_model/
+
+Transformers 캐시 및 로컬 데이터셋
+
+cache/
+.cache/
+data_cache/
+
+PyTorch 및 TensorFlow 체크포인트, 텐서보드 로그
+
+*.pt
+*.pth
+*.safetensors
+runs/
+tb_logs/
