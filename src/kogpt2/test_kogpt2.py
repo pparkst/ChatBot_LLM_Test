@@ -58,10 +58,5 @@ def generate_response(prompt: str, max_length = 100, num_return_sequences = 1):
 
 generate_response("반품 문의 좀 하고싶어요")
 generate_response("택배 상자가 파손되었어요")
-generate_response("아니 개자식아")
-generate_response("장난하세요?")
-generate_response("죽여버린다")
-generate_response("열받네 진짜")
 generate_response("배송비 얼마에요")
 generate_response("배송 언제 출발해요?")
-generate_response("닥쳐")
